@@ -1275,7 +1275,7 @@ video iframe
     #conteudo1_texto1
     {
         width: 100%;
-        height: 50%;
+        height: 250px;
         text-align: center;
     }
 
@@ -1283,14 +1283,14 @@ video iframe
     #conteudo1_texto3
     {
         max-width: 100%;
-        height: 70%;
+        height: 300px;
         text-align: center;
     }
 
     #conteudo2_texto1
     {
         max-width: 100%;
-        height: 70%;
+        height: 300px;
         text-align: center;
     }
 
@@ -1298,7 +1298,7 @@ video iframe
     #conteudo2_texto3
     {
         max-width: 100%;
-        height: 60%;
+        height: 300px;
         text-align: center;
     }
 
