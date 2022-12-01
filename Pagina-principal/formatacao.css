@@ -1036,7 +1036,7 @@ video iframe
     color: white;
 }
 
-@media(max-width: 400px)
+@media(max-width: 440px)
 {
     header ul
     {
@@ -1056,18 +1056,6 @@ video iframe
     .planeta-front
     {
         display: none;
-    }
-
-    .imagem-texto h1
-    {
-        font-size: 20px;
-    }
-
-    .imagem-texto p
-    {
-        min-width: 300px;
-        font-size: 16px;
-        line-height: 22px;
     }
 
     .material-icons
@@ -1094,6 +1082,19 @@ video iframe
         left: 50%;
         top: 55%;
         transform: translate(-50%, -50%);
+    }
+
+    .imagem-texto h1
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .imagem-texto p
+    {
+        min-width: 340px;
+        font-size: 18px;
+        line-height: 23px;
     }
 
     .area-do-video
@@ -1274,27 +1275,31 @@ video iframe
     #conteudo1_texto1
     {
         width: 100%;
-        height: 60%;
+        height: 50%;
+        text-align: center;
     }
 
 
     #conteudo1_texto3
     {
         max-width: 100%;
-        height: 80%;
+        height: 70%;
+        text-align: center;
     }
 
     #conteudo2_texto1
     {
         max-width: 100%;
-        height: 80%;
+        height: 70%;
+        text-align: center;
     }
 
 
     #conteudo2_texto3
     {
         max-width: 100%;
-        height: 70%;
+        height: 60%;
+        text-align: center;
     }
 
     .circulo1-imagem
