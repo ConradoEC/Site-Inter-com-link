@@ -373,6 +373,7 @@ header ul
     border-radius: 20px;
     background-color: black;
     box-shadow: 0px 0px 20px black;
+    cursor: pointer;
 }
 
 .vazio2:hover .imagem-zoom1
@@ -958,7 +959,7 @@ header ul
     color: white;
 }
 
-@media(max-width: 400px)
+@media(max-width: 440px)
 {
     header::after
     {
@@ -1091,7 +1092,7 @@ header ul
         flex-direction: column;
         justify-content: space-around;
         padding: 40px 0px;
-        min-height: 2900px;
+        height: 2900px;
     }
 
     .imagens-box-responsivo
@@ -1124,7 +1125,7 @@ header ul
     {
         display: block;
         margin-bottom: 60px;
-        height: 600px;
+        height: 530px;
         width: 96%;
     }
 
@@ -1137,7 +1138,7 @@ header ul
     {
         display: block;
         margin-bottom: 60px;
-        height: 600px;
+        height: 550px;
         width: 96%;
     }
 
@@ -1149,7 +1150,7 @@ header ul
     #conteudo1_1_texto3_2
     {
         display: block;
-        height: 600px;
+        height: 550px;
         width: 96%;
     }
 
@@ -1226,7 +1227,7 @@ header ul
     {
         display: block;
         font-size: 18px;
-        height: 990px;
+        height: 890px;
         width: 90%;
     }
 
@@ -1243,8 +1244,23 @@ header ul
     {
         display: block;
         font-size: 18px;
-        height: 1350px;
+        height: 1250px;
         width: 90%;
         transform: translateX(0);
+    }
+
+    .imagem-footer
+    {
+        margin-bottom: 40px;
+    }
+
+    .imagem-footer img
+    {
+        width: 200px;
+    }
+
+    .informacoes-footer
+    {
+        font-size: 13px;
     }
 }
